@@ -1,1 +1,1 @@
-00 * * * * ./dcc-dashboard-service/instructions.sh && cd && cp `pwd`/dcc-metadata-indexer/validated.jsonl `pwd`/dcc-dashboard/ && gzip `pwd`/dcc-dashboard/validated.jsonl 
+00 * * * * . $HOME/.profile; ./dcc-dashboard-service/execute_cron.sh 
