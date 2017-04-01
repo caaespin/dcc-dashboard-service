@@ -73,6 +73,7 @@ def parse_ES_response(es_dict, the_size, the_from, the_sort, the_order, key_sear
                 'objectID' : hit['_source']['file_id'],
                 'access' : hit['_source']['access'],
                 'center_name': hit['_source']['center_name'],
+                'cloud': hit['_source']['cloud'],
                 'study' : [hit['_source']['study']],
                 'program': hit['_source']['program'], ###Added source
                 'dataCategorization' : {
